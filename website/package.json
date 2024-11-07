@@ -1,0 +1,14 @@
+{
+  "name": "docs-preview",
+  "private": "true",
+  "scripts": {
+    "build": "./scripts/website-build.sh",
+    "content-check": "hc-content --config base-docs"
+  },
+  "devDependencies": {
+    "next": "^12.1.0"
+  },
+  "engines": {
+    "npm": ">=7.0.0"
+  }
+}
